@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box ;
+}
+body{
+    background-color: rgb(239, 240, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 900px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 50px 55px rgb(0, 0,0,0,1s);
+}
+.container .container-left{
+    position: relative;
+    background-color: #353535;
+    padding-right: 50px;
+}
+.photo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-right: 0px;
+}
+
+.photo img{
+    width: 150px;
+}
+.container .container-right{
+    position: relative;
+    background-color: white;
+    padding-right: 30px;
+    max-width: 100%;
+}
+.container .title-{
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+span {
+    color: #fefeff;
+}
+ul li{
+    color: #fefeff;
+    padding: 5px;
+    margin-top: 9px;
+    padding: 0px;
+    padding-left: 0px;
+}
+ul{
+    padding: 20px;
+}
+#experience{
+    text-transform: uppercase;
+    background-color: #353535;
+    border-radius: 0px, 20px, 0px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-inline: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 38%;
+}
+/*LES TITRES*/
+.title-{
+   padding-top: 5px;
+   color: #000000;
+   text-transform: uppercase;
+   font-weight: 600px;
+   letter-spacing: 1px;
+   background-color: white;
+   border-radius: 0px 20px 20px 0px;
+   margin: 0px;
+   padding-right: 30px;
+   padding-left: 0px;
+   padding-inline: 20px;
+   margin-left: -4px;
+}
+.container-right{
+    padding: 3%;
+}
+/*LES TITRES*/
+.title-experience{
+    padding-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    background-color: #000000;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-inline: 20px;
+    margin-left: -18px;
+}
+/*LES TITRES*/
+.title-experience1{
+    padding-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    background-color: #000000;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-inline: 20px;
+    margin-left: -18px;
+}
+.icon{
+    margin-top: 20px;
+}
